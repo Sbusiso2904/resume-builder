@@ -11,6 +11,7 @@ import About from "./pages/About";
 import AuthForm from "./pages/AuthForm";
 import CreateResume from "./pages/CreateResume";
 import ImproveResume from "./pages/ImproveResume";
+import MainDash from "./pages/MainDash";
 
 function App() {
 
@@ -37,7 +38,7 @@ function App() {
                 <Link to="/about" className="hover:bg-blue-100 px-3 py-2 rounded transition duration-200">About</Link>
               </div>
             </div>
-          </nav> hhhhhhhh
+          </nav> 
 
           {/* Add spacing below the fixed nav */}
           <div className="pt-24">
@@ -84,17 +85,33 @@ function App() {
             }
           />
 
-          {/* Route Pages */}
+          {/*public pages*/}
+          
           <Route path="/create" element={<CreateResume />} />
           <Route path="/improve" element={<ImproveResume />} />
-          <Route path="/authform" element={<AuthForm />} />
-          <Route path="/builder" element={<Builder />} />
-          <Route path="/upload" element={<Upload />} />
-          <Route path="/contacts" element={<Contacts />} />
           <Route path="/about" element={<About />} />
 
+
+          {/* Route Pages */}
+{/* 
+          <Route index element={<Navigate to="/maindash" replace />} />
+
+            <Route path="/authform" element={<AuthForm />} />
+            <Route path="/builder" element={<Builder />} />
+            <Route path="/upload" element={<Upload />} />
+            <Route path="/contacts" element={<Contacts />} />
+            <Route path="/about" element={<About />} />
+            */}
+          <Route path="/maindash" element={<MainDash />}>
+            <Route index element={<div>Welcome to the Dashboard</div>} />
+            <Route path="builder" element={<Builder />} />
+            <Route path="upload" element={<Upload />} />
+            <Route path="contacts" element={<Contacts />} />
+            <Route path="about" element={<About />} />
+          </Route>
+
           {/* 404 Page */}
-          <Route path="*" element={<h1 className="text-center text-red-600 text-2xl">404 - Page Not Found</h1>} />
+          <Route path="*" element={<h1 className="text-center text-red-600 text-2xl">404 - Page Not Found</h1>} /><Route/>
         </Routes>
       </div>
     </Router>
