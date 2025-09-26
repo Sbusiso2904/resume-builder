@@ -51,14 +51,11 @@ function Builder() {
       >
         Sidebar
       </button>
-
-      {/* Sidebar Component */}
+      
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
 
-      {/* Main Content */}
       <div className="mt-8">
         <h1 className="text-2xl font-bold text-gray-800">Resume Builder</h1>
-        {/* Add the builder form or resume section here */}
       </div>
     </div>
   );
