@@ -13,6 +13,8 @@ import CreateResume from "./pages/CreateResume";
 import ImproveResume from "./pages/ImproveResume";
 import MainDash from "./pages/MainDash";
 
+
+
 function App() {
 
   return (
@@ -79,39 +81,22 @@ function App() {
                   </Link>
                 </div>
 
-                {/* Render Home content */}
                 <Home />
               </>
             }
           />
 
-          {/*public pages*/}
-          
+          {/* Route Pages */}
           <Route path="/create" element={<CreateResume />} />
           <Route path="/improve" element={<ImproveResume />} />
+          <Route path="/authform" element={<AuthForm />} />
+          <Route path="/builder" element={<Builder />} />
+          <Route path="/upload" element={<Upload />} />
+          <Route path="/contacts" element={<Contacts />} />
           <Route path="/about" element={<About />} />
 
-
-          {/* Route Pages */}
-{/* 
-          <Route index element={<Navigate to="/maindash" replace />} />
-
-            <Route path="/authform" element={<AuthForm />} />
-            <Route path="/builder" element={<Builder />} />
-            <Route path="/upload" element={<Upload />} />
-            <Route path="/contacts" element={<Contacts />} />
-            <Route path="/about" element={<About />} />
-            */}
-          <Route path="/maindash" element={<MainDash />}>
-            <Route index element={<div>Welcome to the Dashboard</div>} />
-            <Route path="builder" element={<Builder />} />
-            <Route path="upload" element={<Upload />} />
-            <Route path="contacts" element={<Contacts />} />
-            <Route path="about" element={<About />} />
-          </Route>
-
           {/* 404 Page */}
-          <Route path="*" element={<h1 className="text-center text-red-600 text-2xl">404 - Page Not Found</h1>} /><Route/>
+          <Route path="*" element={<h1 className="text-center text-red-600 text-2xl">404 - Page Not Found</h1>} />
         </Routes>
       </div>
     </Router>
