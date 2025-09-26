@@ -13,8 +13,6 @@ import CreateResume from "./pages/CreateResume";
 import ImproveResume from "./pages/ImproveResume";
 import MainDash from "./pages/MainDash";
 
-
-
 function App() {
 
   return (
