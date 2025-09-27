@@ -11,6 +11,7 @@ import ImproveResume from "./pages/ImproveResume";
 import MainDash from "./pages/MainDash";
 
 function PublicNav() {
+  
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-100 shadow-md z-50">
       <div className="flex items-center justify-between max-w-7xl mx-auto px-6 py-4">
