@@ -80,7 +80,8 @@ function App() {
             <Route path="/builder" element={<Builder />} />
             <Route path="/upload" element={<Upload />} />
             <Route path="/contacts" element={<Contacts />} />
-            <Route path="/about" element={<About />} />            
+            <Route path="/about" element={<About />} />
+            
 
           <Route path="*" element={<h1 className="text-center text-red-600 text-2xl">404 - Page Not Found</h1>} />
         </Routes>
