@@ -5,7 +5,7 @@ import Upload from "./Upload";
 import Contacts from "./Contacts";
 import About from "./About";
 
-// Dashboard home component
+
 function DashboardHome() {
   return (
     <div className="bg-white p-8 rounded-lg shadow-md">
@@ -29,14 +29,12 @@ const MainDash = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    // Clear authentication (you'll want to implement proper auth later)
     localStorage.removeItem('currentUser');
     navigate('/');
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-100">
-      {/* MainDash navigation - this replaces the App's nav */}
       <nav className="fixed top-0 left-0 w-full bg-green-100 shadow-md z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <h1 className="text-2xl font-extrabold text-green-900 tracking-wide">
