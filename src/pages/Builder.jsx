@@ -49,13 +49,13 @@ function Builder() {
         className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
         onClick={toggleSidebar}
       >
-        Sidebar
+        Build
       </button>
-      
+
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
 
       <div className="mt-8">
-        <h1 className="text-2xl font-bold text-gray-800">Resume Builder</h1>
+        <h1 className="text-2xl font-bold text-gray-800">Build you resume locally SA</h1>
       </div>
     </div>
   );
