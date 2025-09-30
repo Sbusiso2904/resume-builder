@@ -44,12 +44,10 @@ function AppContent() {
 
           <Route path="/" element={<Home />} />
           <Route path="/authform" element={<AuthForm />} />
- 
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/about" element={<About />} />
           <Route path="/create" element={<CreateResume />} />
           <Route path="/improve" element={<ImproveResume />} />
-
           <Route path="/maindash/*" element={<MainDash />} />
           
           {/* 404 route */}
