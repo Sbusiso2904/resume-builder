@@ -15,7 +15,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
               &times;
             </button>
           </div>
-          
+
           <nav className="mt-4">
             <ul className="space-y-4">
               <li>
@@ -49,6 +49,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
     </>
   );
 }
+
 
 function Builder() {
   const [isOpen, setIsOpen] = React.useState(false);
