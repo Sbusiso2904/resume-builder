@@ -5,21 +5,38 @@ import Upload from "./Upload";
 import Contacts from "./Contacts";
 import About from "./About";
 
-
 function DashboardHome() {
   return (
     <div className="bg-white p-8 rounded-lg shadow-md">
       <h2 className="text-3xl font-bold text-green-900 mb-4">Welcome to Your Dashboard!</h2>
       <p className="text-gray-600 text-lg">You have successfully logged in to your Resume Builder dashboard.</p>
-      <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="bg-green-50 p-4 rounded-lg">
-          <h3 className="font-semibold text-green-800">Quick Actions</h3>
-          <ul className="mt-2 space-y-2">
-            <li>• Create a new resume</li>
-            <li>• Upload existing resume</li>
-            <li>• View your templates</li>
-          </ul>
-        </div>
+      
+      <div className="flex flex-col md:flex-row gap-20 max-w-5xl mx-auto mb-12">
+        {/* First Card - Create Resume */}
+        <Link
+          to="/maindash/builder"
+          className="flex-1 bg-white rounded-lg shadow p-8 cursor-pointer hover:underline"
+        >
+          <h3 className="text-red-900 mt-5 text-base font-medium tracking-tight">
+            Create New Resume/CV
+          </h3>
+          <p className="text-gray-500 mt-2">
+            Start from scratch using our builder.
+          </p>
+        </Link>
+
+        {/* Second Card - Improve Resume */}
+        <Link
+          to="/maindash/upload"
+          className="flex-1 bg-white rounded-lg shadow p-8 cursor-pointer hover:underline"
+        >
+          <h3 className="text-green-900 dark:text-black mt-5 text-base font-medium tracking-tight">
+            Improve Your Resume/CV
+          </h3>
+          <p className="text-gray-500 dark:text-gray-400 mt-2">
+            Upload your resume and get suggestions.
+          </p>
+        </Link>
       </div>
     </div>
   );
