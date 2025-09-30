@@ -60,7 +60,6 @@ function Builder() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-100 pt-24">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Header */}
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
           <div className="flex justify-between items-center">
             <h1 className="text-3xl font-bold text-green-900">Build Your Resume</h1>
@@ -76,7 +75,6 @@ function Builder() {
 
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {/* Create Resume Card */}
           <div className="bg-white rounded-lg shadow p-8 hover:shadow-lg transition duration-200">
             <Link to="/maindash/builder">
               <h3 className="text-red-900 text-xl font-bold mb-4">
@@ -100,7 +98,6 @@ function Builder() {
           </div>
         </div>
 
-        {/* Builder Content Section */}
         <div className="bg-white rounded-lg shadow-md p-8 mt-12">
           <h2 className="text-2xl font-bold text-green-900 mb-6">Resume Builder Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
