@@ -4,9 +4,22 @@ import { Link } from "react-router-dom";
 function Sidebar({ isOpen, toggleSidebar }) {
   return (
     <div className={`fixed top-0 left-0 h-full w-64 bg-gray-800 text-white transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out z-50`}>
+      <h2 className="text-3xl font-bold text-green-900 mb-4">Welcome to your Builder!</h2>
+        <div className="flex flex-col md:flex-row gap-20 max-w-5xl mx-auto mb-12">
+          {/* First Card - Create Resume */}
+          <Link
+            to="/maindash/builder"
+            className="flex-1 bg-white rounded-lg shadow p-8 cursor-pointer hover:underline"
+          >
+            <h3 className="text-red-900 mt-5 text-base font-medium tracking-tight">
+              Create New Resume/CV
+            </h3>
+            <p className="text-gray-500 mt-2">
+              Start from scratch using our builder.
+            </p>
+          </Link>
 
 
-      
       <button
         className="absolute top-4 right-4 text-3xl font-bold"
         onClick={toggleSidebar}
