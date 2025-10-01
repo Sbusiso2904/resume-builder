@@ -8,6 +8,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
         <div className="p-6">
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-xl font-bold text-white">Resume Tools</h2>
+            
             <button
               className="text-2xl font-bold hover:text-gray-300"
               onClick={toggleSidebar}
