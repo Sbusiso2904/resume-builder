@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Navigate } from "react-router-dom";
 
+
 function AuthForm() {
   const [isLogin, setIsLogin] = useState(true);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -19,6 +20,7 @@ function AuthForm() {
       console.log("✅ Login successful:", data.email);
       setIsAuthenticated(true);
     } else {
+      
       // MOCK SIGN UP
       const user = {
         name: data.name,
