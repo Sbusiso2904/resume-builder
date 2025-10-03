@@ -20,6 +20,7 @@ function AuthForm() {
       console.log("✅ Login successful:", data.email);
       setIsAuthenticated(true);
     } else {
+      
       // MOCK SIGN UP
       const user = {
         name: data.name,
