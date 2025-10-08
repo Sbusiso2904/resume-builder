@@ -124,7 +124,7 @@ const Upload = () => {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-green-900 mb-2">Improve Your Resume/CV</h1>
         <p className="text-gray-600 mb-8">
-          Upload your resume and get AI-powered suggestions to make it stand out to employers.
+          Upload your resume and suggestions to make it stand out to employers.
         </p>
 
         {!analysis ? (
