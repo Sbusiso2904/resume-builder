@@ -293,7 +293,7 @@ const Upload = () => {
             <div className="grid md:grid-cols-2 gap-6 mt-8">
               <div className="bg-green-50 rounded-lg p-6">
                 <h4 className="text-lg font-semibold text-green-900 mb-3">
-                  ✅ Strengths
+                   Strengths
                 </h4>
                 <ul className="list-disc list-inside text-gray-600 space-y-1">
                   {analysis.strengths.map((strength, index) => (
@@ -304,7 +304,7 @@ const Upload = () => {
 
               <div className="bg-yellow-50 rounded-lg p-6">
                 <h4 className="text-lg font-semibold text-yellow-900 mb-3">
-                  📈 Areas for Improvement
+                   Areas for Improvement
                 </h4>
                 <ul className="list-disc list-inside text-gray-600 space-y-1">
                   {analysis.areasForImprovement.map((area, index) => (
