@@ -69,7 +69,7 @@ const Contacts = () => {
       ),
       title: 'Call Us',
       details: 'Mon to Fri from 9am to 6pm',
-      contact: '+1 (555) 123-4567',
+      contact: '+27 676325942',
       link: 'tel:+15551234567'
     },
     {
