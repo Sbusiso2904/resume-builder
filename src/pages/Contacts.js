@@ -81,7 +81,7 @@ const Contacts = () => {
       ),
       title: 'Visit Us',
       details: 'Come say hello at our office',
-      contact: '123 Business Ave, Suite 100\nCity, State 12345',
+      contact: '132 Jan Smuts Ave, Parkwood, Johannesburg 2193',
       link: 'https://maps.google.com'
     },
     {
