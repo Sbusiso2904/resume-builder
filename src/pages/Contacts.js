@@ -256,6 +256,7 @@ const Contacts = () => {
                   placeholder="Tell us how we can help you..."
                 />
               </div>
+              
 
               <button
                 type="submit"
