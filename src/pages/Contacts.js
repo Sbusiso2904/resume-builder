@@ -118,22 +118,22 @@ const Contacts = () => {
 
   const teamMembers = [
     {
-      name: 'Sarah Johnson',
+      name: 'Nkonzwenhle Mthiya',
       role: 'Resume Expert & Career Coach',
       bio: '10+ years experience in HR and career counseling',
-      email: 'sarah@resumebuildersa.com'
+      email: 'nkonzwenhle@resumebuildersa.com'
     },
     {
-      name: 'Mike Chen',
+      name: 'Sakhile Mthiya',
       role: 'Technical Resume Specialist',
       bio: 'Former tech recruiter with deep industry knowledge',
-      email: 'mike@resumebuildersa.com'
+      email: 'sakhile@resumebuildersa.com'
     },
     {
-      name: 'Emily Davis',
+      name: 'Syanda Mthiya',
       role: 'Customer Success Manager',
       bio: 'Dedicated to ensuring your resume success',
-      email: 'emily@resumebuildersa.com'
+      email: 'siyanda@resumebuildersa.com'
     }
   ];
 
