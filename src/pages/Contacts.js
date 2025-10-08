@@ -92,7 +92,7 @@ const Contacts = () => {
       ),
       title: 'Live Chat',
       details: 'Instant support during business hours',
-      contact: 'Available 9am-6pm EST',
+      contact: 'Available 9am-6pm business days',
       link: '#chat'
     }
   ];
