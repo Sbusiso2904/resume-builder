@@ -170,6 +170,7 @@ const Contacts = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
+          
           {/* Contact Form */}
           <div className="bg-white rounded-lg shadow-lg p-8 border border-gray-200">
             <h2 className="text-2xl font-bold text-green-900 mb-6">Send us a Message</h2>
@@ -256,7 +257,7 @@ const Contacts = () => {
                   placeholder="Tell us how we can help you..."
                 />
               </div>
-              
+
 
               <button
                 type="submit"
