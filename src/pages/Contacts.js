@@ -1,4 +1,3 @@
-// Contacts.js
 import React, { useState } from 'react';
 
 const Contacts = () => {
