@@ -2,12 +2,12 @@ import React from "react";
 
 function About() {
   return (
-    <div className="max-w-2xl mx-auto p-6 ">
-      <h1 className="text-3xl font-bold text-gray-800 mb-4 flex justify-center">About</h1>
-
+    <div className="bg-white p-8 rounded-lg shadow-md">
+      <h2 className="text-3xl font-bold text-green-900 mb-4">Welcome to Your Dashboard!</h2>
+      <p className="text-gray-600 text-lg">You have successfully logged in to your Resume Builder dashboard.</p>
+      
     </div>
   );
 }
 
 export default About;
-
