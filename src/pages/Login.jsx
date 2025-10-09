@@ -30,7 +30,7 @@ function Login() {
         navigate("/builder");
       }, 1500);
     } else {
-      setMessage("Email or password doesn't match our records.");
+      setMessage("Email or password doesn't match our record.");
     }
   };
 
