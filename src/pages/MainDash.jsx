@@ -12,7 +12,7 @@ function DashboardHome() {
       <p className="text-gray-600 text-lg">You have successfully logged in to your Resume Builder dashboard.</p>
       
       <div className="flex flex-col md:flex-row gap-20 max-w-5xl mx-auto mb-12">
-        {/* First Card - Create Resume */}
+     
         <Link
           to="/maindash/builder"
           className="flex-1 bg-white rounded-lg shadow p-8 cursor-pointer hover:underline"
@@ -25,7 +25,7 @@ function DashboardHome() {
           </p>
         </Link>
 
-        {/* Second Card - Improve Resume */}
+
         <Link
           to="/maindash/upload"
           className="flex-1 bg-white rounded-lg shadow p-8 cursor-pointer hover:underline"

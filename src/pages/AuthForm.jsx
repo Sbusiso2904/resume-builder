@@ -16,6 +16,7 @@ function AuthForm() {
 
   const onSubmit = (data) => {
     if (isLogin) {
+      
       // MOCK LOGIN - Always successful for demo
       console.log("✅ Login successful:", data.email);
       setIsAuthenticated(true);
