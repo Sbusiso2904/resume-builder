@@ -93,7 +93,7 @@ function Builder() {
                 Improve Your Resume/CV
               </h3>
               <p className="text-gray-600">
-                Upload your existing resume and get AI-powered suggestions.
+                Upload your existing resume and powered suggestions.
               </p>
             </Link>
           </div>
