@@ -120,19 +120,19 @@ const Contacts = () => {
       name: 'Nkonzwenhle Mthiya',
       role: 'Resume Expert & Career Coach',
       bio: '10+ years experience in HR and career counseling',
-      email: 'nkonzwenhle@resumebuildersa.com'
+      email: 'nkonzwenhle@resumebuildersa025.com'
     },
     {
       name: 'Sakhile Mthiya',
       role: 'Technical Resume Specialist',
       bio: 'Former tech recruiter with deep industry knowledge',
-      email: 'sakhile@resumebuildersa.com'
+      email: 'sakhile@resumebuildersa025.com'
     },
     {
       name: 'Syanda Mthiya',
       role: 'Customer Success Manager',
       bio: 'Dedicated to ensuring your resume success',
-      email: 'siyanda@resumebuildersa.com'
+      email: 'siyanda@resumebuildersa025.com'
     }
   ];
 
