@@ -18,8 +18,8 @@ const Upload = () => {
         return;
       }
       
-      // Check file size (5MB max)
-      if (selectedFile.size > 5 * 1024 * 1024) {
+      // Check file size (10MB max)
+      if (selectedFile.size > 10 * 1024 * 1024) {
         setError('File size should be less than 5MB');
         return;
       }
@@ -139,7 +139,7 @@ const Upload = () => {
                 Upload Your Resume
               </h3>
               <p className="text-gray-500 mb-6">
-                Supported formats: PDF, DOC, DOCX (Max 5MB)
+                Supported formats: PDF, DOC, DOCX (Max 10MB)
               </p>
 
               <div className="mb-6">
